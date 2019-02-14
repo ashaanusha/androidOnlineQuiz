@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">android online quiz</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Telugu</item>
+        <item>Hindi</item>
+    </string-array>
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">A simple way to learn something everyday</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Avail yourself the opportunity to store and compare your quiz result</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_main_category">MainCategory</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Induce Quiz</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Algebra">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:text="Algebra"
+    android:textSize="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Algebra is one of the broad parts of the broad parts of mathematics together with number theory,geometry and analysis.In its most general form"/>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:src="@drawable/ic_launcher_background"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Question In Algebra"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="20dp"
+       android:layout_margin="5dp"
+       android:background="#FF0000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="2 Questions"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#1e90ff"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/follow_quiz"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow Quiz"
+            android:background="#6B8E23"/>
+        <Button
+            android:id="@+id/play"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:background="#6B8E23"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="65 Time played"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/textview1"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="100 BestScore"
+            android:background="@drawable/textview1"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="2 Levels"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/textview1"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>

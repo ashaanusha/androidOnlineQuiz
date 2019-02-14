@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Congratulation">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#00bfff"
+        android:orientation="vertical"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/congratulation"
+            android:text="Congratulations"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/win_cup"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR QUIZ SCORE IS"
+            android:textColor="#00bfff" />
+
+        <TextView
+            android:id="@+id/per"
+            android:layout_width="wrap_content"
+            android:text="96%"
+            android:textSize="60dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e6e6d8">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is a concise summary of your result and the area you need to perform well to improve your future quiz results.Check out the result analysis to get more insight" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/correct"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6 correct answers"
+                    android:background="#39ff14"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/wrong"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 wrong answers"
+                    android:background="#b22222"
+                    android:padding="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Result Analysis"
+            android:id="@+id/View_Result_Analysis"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#00bfff"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/main_menu"
+            android:layout_weight="1"
+            android:background="#00bfff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Menu" />
+
+        <Button
+            android:id="@+id/play_again"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="#00bfff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Again" />
+    </LinearLayout>
+</LinearLayout>
